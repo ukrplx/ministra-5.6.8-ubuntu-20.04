@@ -67,7 +67,7 @@ npm install -g npm@2.15.11
 ln -s /usr/bin/nodejs /usr/bin/node
 
 echo "Configuring Timezone..."
-sudo ln -fs /usr/share/zoneinfo/Europe/London /etc/localtime
+sudo ln -fs /usr/share/zoneinfo/America/Los_angeles /etc/localtime
 sudo dpkg-reconfigure --frontend noninteractive tzdata
 
 echo "Installing MySQL Server ..."
