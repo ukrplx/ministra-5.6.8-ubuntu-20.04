@@ -27,6 +27,7 @@ export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 echo "Setting up PHP 7.0 Repository..."
+
 sudo apt-get install -y software-properties-common
 add-apt-repository ppa:ondrej/php -y
 
